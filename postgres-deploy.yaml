@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   naeme: postgres-deploy
   labels:
-    name: -deploy
+    name: postgres-deploy
     app: demo-voting-app
 spec:
   replicas: 1
